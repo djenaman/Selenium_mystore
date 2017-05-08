@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping">
+        <methods>
+          <include name="shopping"/>
+          <include name="closeTetcase"/>
+          <include name="initTetcase"/>
+        </methods>
+      </class> <!-- com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

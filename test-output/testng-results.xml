@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='E:\Selenium Practice\MyStore\src\main\java\com\dipak\mystore\capturedScreenShot\_07_05_2017_03_52_23_indexpage.png'><img src='E:\Selenium Practice\MyStore\src\main\java\com\dipak\mystore\capturedScreenShot\_07_05_2017_03_52_23_indexpage.png' height='100' width='100' /></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="113555" started-at="2017-05-07T10:20:48Z" finished-at="2017-05-07T10:22:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="113555" started-at="2017-05-07T10:20:48Z" finished-at="2017-05-07T10:22:41Z">
+      <class name="com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping">
+        <test-method status="PASS" signature="initTetcase()[pri:0, instance:com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping@1784306]" name="initTetcase" is-config="true" duration-ms="94" started-at="2017-05-07T15:50:48Z" finished-at="2017-05-07T15:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTetcase -->
+        <test-method status="PASS" signature="shopping()[pri:0, instance:com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping@1784306]" name="shopping" duration-ms="113385" started-at="2017-05-07T15:50:48Z" finished-at="2017-05-07T15:52:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\Selenium Practice\MyStore\src\main\java\com\dipak\mystore\capturedScreenShot\_07_05_2017_03_52_23_indexpage.png'><img src='E:\Selenium Practice\MyStore\src\main\java\com\dipak\mystore\capturedScreenShot\_07_05_2017_03_52_23_indexpage.png' height='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+        <test-method status="PASS" signature="closeTetcase()[pri:0, instance:com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping@1784306]" name="closeTetcase" is-config="true" duration-ms="1" started-at="2017-05-07T15:52:41Z" finished-at="2017-05-07T15:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTetcase -->
+      </class> <!-- com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
