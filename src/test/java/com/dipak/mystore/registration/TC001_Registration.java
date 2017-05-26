@@ -18,7 +18,7 @@ public class TC001_Registration extends Baseclass
 	{
 		Map<String, String> RegistrationData=null;
 		log.info("**** Test case 001 for Registration started ****");
-		init("firefox", "Http://Automationpractice.Com/");
+		init("chrome", "Http://Automationpractice.Com/");
 		log.info("Index page opened");
 		new IndexPage(driver).clickSignin();
 		log.info("Signin button clicked");

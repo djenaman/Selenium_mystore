@@ -14,24 +14,21 @@ import org.openqa.selenium.TakesScreenshot;
 
 import com.dipak.mystore.testBase.Baseclass;
 
-import sun.util.resources.cldr.aa.CalendarData_aa_ER;
+/*import sun.util.resources.cldr.aa.CalendarData_aa_ER;*/
 
 public class Clistner extends Baseclass implements ITestListener
 {
 
-	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onTestFailure(ITestResult result)
 	{
 		SimpleDateFormat format=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
@@ -49,25 +46,21 @@ public class Clistner extends Baseclass implements ITestListener
 		
 	}
 
-	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
 		

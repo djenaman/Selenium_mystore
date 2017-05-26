@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping">
+      <class name="com.dipak.mystore.registration.TC001_Registration">
         <methods>
-          <include name="shopping"/>
-          <include name="closeTetcase"/>
-          <include name="initTetcase"/>
+          <include name="registration"/>
         </methods>
-      </class> <!-- com.dipak.mystore.shopping.TC002_Women_Evening_Dresses_Shopping -->
+      </class> <!-- com.dipak.mystore.registration.TC001_Registration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

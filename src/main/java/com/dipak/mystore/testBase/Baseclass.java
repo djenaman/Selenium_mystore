@@ -25,7 +25,7 @@ public class Baseclass
 	public final Logger log;
 	public Baseclass()
 	{
-		PropertyConfigurator.configure("E:\\Selenium Practice\\MyStore\\log4j.properties");
+		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\log4j.properties");
 		driver=null;
 		log=Logger.getLogger(this.getClass().getName());
 	}

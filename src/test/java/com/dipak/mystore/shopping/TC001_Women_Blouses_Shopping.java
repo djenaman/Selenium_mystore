@@ -31,7 +31,7 @@ public class TC001_Women_Blouses_Shopping extends Baseclass {
 	@Test
 	public void shopping() throws IOException, InterruptedException
 	{
-		init("ie", "http://automationpractice.com/"); 
+		init("chrome", "http://automationpractice.com/"); 
 		log.info("*** TC001_Women_Blouses_Shopping started with IE browsr opening ***");
 		new IndexPage(driver).clickSignin();
 		log.info("sign in clicked fromindex page");
