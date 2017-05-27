@@ -130,7 +130,9 @@ public class RegistrationPage extends Baseclass {
 
 		Register_btn.click();
 		try{
-			if(Homepage_username.getText().toLowerCase().trim().contains(user.get("First name").toString().toLowerCase().trim()))
+			String sourcestring = Homepage_username.getText().toLowerCase().trim();
+			String deststring= user.get("First name").toString().toLowerCase().trim();
+			if(sourcestring.contains(deststring))
 			{
 				log.info("register successfull...");
 				Getdata=new GetExcelData();
